@@ -1,0 +1,171 @@
+body
+{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+nav
+{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a
+{
+  font-size: 36px;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover
+{
+  color: black;
+  background-color: white;
+}
+
+#about
+{
+  padding-top: 70px;
+  background-image: url("../media/golisano.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+  color: white;
+}
+
+#aTitle
+{
+  background-color: black;
+  font-size: 32px;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#aDes
+{
+  background-color: black;
+  font-size: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2.5%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#aQuote
+{
+  background-color: black;
+  font-size: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+#aQAuth
+{
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+#degrees, #employment, #tables
+{
+  background-color: black;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#DT
+{
+  background-color: white;
+  text-decoration: underline;
+  font-size: 32px;
+  padding: 20px;
+  margin-left: 37%;
+  margin-right: 37%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#deg
+{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5% 2% 5% 2%;
+}
+
+.D2
+{
+  margin-top: 3%;
+}
+
+#cert
+{
+  color: white;
+  font-size: 20px;
+  margin: 0.5%;
+}
+
+#minors, #people
+{
+  background-color: lightgray;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#BT
+{
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+  font-size: 32px;
+  padding: 20px;
+  margin-left: 37%;
+  margin-right: 37%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#min
+{
+  margin: 2%;
+}
+
+#ET
+{
+  background-color: white;
+  text-decoration: underline;
+  font-size: 32px;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#close
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}

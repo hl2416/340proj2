@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- metadata, css page link, js scripts, and title -->
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Sticky Nav Bar JS File from https://github.com/fedecarg/sticky-nav -->
+        <script src="assets/js/jquery.sticky-nav.js"></script>
+        <!-- JQuery Modal File from https://github.com/kylefox/jquery-modal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <!-- Data Tables File from https://datatables.net/ -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+        <!-- JS file with JQuery that pulls data and appends html -->
+        <script src="assets/js/getData.js"></script>
+        <!-- CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <title> Project 2 </title>
+    </head>
+    <body>
+      <!-- sticky nav bar to access different sections of the page -->
+      <nav>
+          <a href = "#about"> About </a>
+          <a href = "#degrees"> Degrees </a>
+          <a href = "#minors"> Minors </a>
+          <a href = "#employment"> Employment </a>
+          <a href = "#people"> People </a>
+      </nav>
+      <!-- five div containers for each section: about, degrees, minors, employment, and people -->
+      <div id = "about"></div>
+      <div id = "degrees"></div>
+      <div id = "minors"></div>
+      <div id = "employment"></div>
+      <!-- holds the two modal tables -->
+      <div id = "tables">
+        <a href = "#cp" rel = "modal:open" id = "deg"> View Co-ops </a>
+        <a href = "#emp" rel = "modal:open" id = "deg"> View Employers </a>
+      </div>
+      <div id = "people"></div>
+    </body>
+</html>
